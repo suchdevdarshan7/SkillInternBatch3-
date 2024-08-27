@@ -1,0 +1,15 @@
+.container{
+    height: 99vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,41 @@
+/* selector{
+    property: value: 
+}
+
+p{
+    background-color: red;
+} */
+
+
+/*! Font properties :  */
+
+/* h1{
+    font-size: 60px;
+    font-family: "Dosis", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: red;
+}
+
+p{
+    word-spacing: 2px;
+    line-height: 1.8;
+    text-indent: 100px;
+    letter-spacing: 1.2px;
+} */
+
+/* ! Background properties */
+
+.container{
+    height: 98vh;
+    background-image: url(./images/tiger.jpg);
+    /* background: radial-gradient() */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    stroke: crimson;
+}

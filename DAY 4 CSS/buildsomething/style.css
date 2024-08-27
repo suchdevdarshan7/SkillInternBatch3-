@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:70px;
+}
+
+nav h2{
+    color: #444;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+ul li a{
+    text-decoration:none;
+    color: #666;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.images{
+    height:20px;
+    width:20px;
+    color: grey;
+}

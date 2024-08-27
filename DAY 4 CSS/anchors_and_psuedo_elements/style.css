@@ -1,0 +1,54 @@
+/* p{
+    text-decoration: ;
+} */
+/* ! Text align center works on only block level elements  */
+
+/* p{
+    text-align: center;     
+
+} */
+
+/* a:link,
+a:visited{
+    color: black;
+    background-color: white;
+}
+
+a:hover{
+    background-color: grey;
+    color: yellow;
+}
+
+a:active{
+    background-color: black;
+    color: crimson;
+} */
+
+
+/* input{
+    border: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+} */
+
+/* Descendant selector */
+/* .container h1{
+    color: green;
+    background-color: red;
+} */
+/* Child selector */
+/* .container>h1{
+    color: green;
+    background-color: red;
+} */
+
+/* button~div{
+   
+} */
+
+/* button+div{
+    color: green;
+} */
