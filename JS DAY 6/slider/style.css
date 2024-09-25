@@ -1,0 +1,38 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    height:50px;
+    width:50px;
+    border: none;
+    border-radius: 100%;
+    background-color: tomato;
+}
+
+.image{
+    height:427px;
+    width: 640px;
+    border-radius:18px;
+}
+
+.icons{
+    height:30px;
+    width:30px;
+    color: white;
+}
+
