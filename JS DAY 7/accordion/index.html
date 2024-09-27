@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .box {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.25);
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        .box p {
+            display: none;
+        }
+
+        .box.active p {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Question 1: What is web development</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident cum in laborum possimus quo animi
+                eos! Eos vitae esse minima, laudantium quam est sapiente maxime. Quo rerum.</p>
+        </div>
+        <div class="box">
+            <h2>Question 1: What is web development</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident cum in laborum possimus quo animi
+                eos! Eos vitae esse minima, laudantium quam est sapiente maxime. Quo rerum.</p>
+        </div>
+        <div class="box">
+            <h2>Question 1: What is web development</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident cum in laborum possimus quo animi
+                eos! Eos vitae esse minima, laudantium quam est sapiente maxime. Quo rerum.</p>
+        </div>
+        <div class="box">
+            <h2>Question 1: What is web development</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident cum in laborum possimus quo animi
+                eos! Eos vitae esse minima, laudantium quam est sapiente maxime. Quo rerum.</p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
