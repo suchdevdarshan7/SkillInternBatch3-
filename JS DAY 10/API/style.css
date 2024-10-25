@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px;
+}
+
+.box{
+    height:500px;
+    width: 500px;
+    padding:10px;
+    border: 1px solid grey;
+}
+img{
+    height: 50%;
+    width: 90%;
+}
+
+h1{
+    color: red;
+    font-size: 25px;
+}
