@@ -13,3 +13,5 @@ Concepts discussed :
 5. list rendering
 6. conditional rendering
 7. Basics of state
+
+<!-- ! Command to run this npm i  -->
