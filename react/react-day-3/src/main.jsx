@@ -7,6 +7,8 @@ import About from "./Components/About.jsx";
 import Contact from "./Components/Contact.jsx";
 import Home from "./Components/Home.jsx";
 import Products from "./Components/Products.jsx";
+import Product from "./Components/Product.jsx";
+import Logger from "./Components/Logger.jsx";
 
 const routerInstance = createBrowserRouter([
   {
@@ -16,6 +18,12 @@ const routerInstance = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+    children: [
+      {
+        path: "something",
+        element: <Logger />,
+      },
+    ],
   },
   {
     path: "/about",
@@ -33,6 +41,10 @@ const routerInstance = createBrowserRouter([
   {
     path: "/products",
     element: <Products />,
+  },
+  {
+    path: "/product/:slug",
+    element: <Product />,
   },
 ]);
 

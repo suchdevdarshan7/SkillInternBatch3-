@@ -1,0 +1,9 @@
+.container{
+    background-color: blue;
+}
+
+.box{
+    list-style: none;
+    padding-bottom: 15px;
+    color: red;
+}

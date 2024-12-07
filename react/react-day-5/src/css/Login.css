@@ -1,0 +1,50 @@
+.login_container{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/23/22/19/forest-8592899_1280.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_container-form{
+    height:35rem;
+    width: 45rem;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white; 
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.25);
+    border-radius: 0.8rem;
+
+}
+
+.login_container-input{
+    width: 28rem;
+    height: 4rem;
+    padding-left: 1.7rem;
+    border: none;
+    box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.25);
+}
+
+.login_container-input:focus{
+    outline: none;
+    box-shadow: 0px 10px 30px 10px rgba(110, 253, 110, 0.51);
+}
+
+.login_container-btn{
+    background-color: seagreen;
+    color: white; 
+    width: 10rem;
+    height: 3rem;
+    border: none;
+}
+
+.error{
+    box-shadow: 0px 10px 30px 10px red;
+}
